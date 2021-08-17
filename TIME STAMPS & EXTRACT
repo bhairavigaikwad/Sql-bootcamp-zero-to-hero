@@ -1,0 +1,11 @@
+/* EXTRACT FUNCTION
+SELECT EXTRACT(YEAR FROM payment_date) AS myyear
+FROM payment */
+
+/* AGE FUNCTION
+SELECT AGE(payment_date)
+FROM payment */
+
+/* TO_CHAR FUNCTION
+SELECT TO_CHAR(payment_date,'MM-dd-YYYY')
+FROM payment */
