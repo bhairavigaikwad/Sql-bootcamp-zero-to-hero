@@ -1,4 +1,4 @@
-/*
+
 CREATE TABLE information
 (
 	info_id SERIAL PRIMARY KEY,
@@ -23,7 +23,7 @@ ALTER COLUMN people DROP NOT NULL
 
 INSERT INTO new_info (title)
 VALUES
-('some new title') #works this time */
+('some new title') #works this time 
 
 SELECT * FROM new_info
 
